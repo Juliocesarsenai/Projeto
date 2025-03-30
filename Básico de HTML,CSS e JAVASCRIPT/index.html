@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Missões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Lista de Missões</h2>
+        <p>Adicione suas missões!</p>
+
+        <form>
+            <input type="text" id="inputMissoes" placeholder="Digite sua missão">
+            <button type="button" onclick="AdicionarMissao()">Adicionar Missão</button>
+            <button onclick="limparLista()" class="botao_lista">Limpar Tudo</button>
+            <p id="mensagem"></p>
+            <ul id="listaMissoes"></ul>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

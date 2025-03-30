@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: "Kanit",sans-serif;
+    color:white;
+}
+
+body{
+   
+    background-image: url("img/img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    border:3px solid rgba(255,255,255,3);
+    backdrop-filter:blur(12px);
+    box-shadow:0 0 10px rgba(0,0,0,2);
+    padding:50px;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+h2{
+    
+    text-align: center;
+    font-size:38px;
+}
+
+p{
+    font-size:20px;
+    
+    text-align: center;
+    
+}
+
+form{
+    justify-content: center;
+    display: flex;
+    margin-top:20px;
+    flex-direction: column;
+}
+    input{
+        
+    color:rgba(255,255,255,3);
+    margin-top:40px;
+    border-radius: 20px;
+    padding:10px 5px;
+    background-color: transparent;
+    }
+
+    button{
+        margin-top:40px;
+        border-radius: 20px;
+        padding:10px;
+        background-color: transparent;
+       ;
+    }
+
+    button:hover{
+        background-color:rgba(255,255,255,3);
+        color:black;
+        cursor:pointer;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+button.remover {
+    background-color: #A34743;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+button.remover:hover {
+    background-color: #60041A;
+}
+button.editar {
+    background-color: #331F19;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+button.editar:hover {
+    background-color: #744d41;
+}
+
+.botao_lista {
+    background-color: transparent;
+}
+
+.botao_lista:hover {
+    background-color:#fff;
+    color: black;
+}
+
+
+
